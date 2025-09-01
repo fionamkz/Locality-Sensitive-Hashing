@@ -1,17 +1,21 @@
-# 🔍 Locality Sensitive Hashing (LSH) en C++
+# 🔍 Locality Sensitive Hashing (LSH) in C++
 
-Este proyecto implementa **LSH (Locality Sensitive Hashing)** en C++ para realizar búsquedas aproximadas de similitud en vectores de datos.
+This project implements **Locality Sensitive Hashing (LSH)** in C++ to perform approximate similarity searches on data vectors.
 
-## ¿Qué hace?
+---
 
-- Genera vectores de datos aleatorios.
-- Crea proyecciones aleatorias para calcular hashes.
-- Agrupa los vectores en buckets según su hash.
-- Genera un vector query aleatorio y encuentra coincidencias en su bucket.
-- Calcula la **similitud coseno** entre el query y los vectores candidatos.
+## 📌 What does it do?
 
-## Estructura
+- Generates random data vectors.  
+- Creates random projections to compute hashes.  
+- Groups vectors into buckets according to their hash.  
+- Generates a random query vector and finds matches in its bucket.  
+- Calculates the **cosine similarity** between the query and candidate vectors.  
 
-- `main.cpp` — Orquestador principal.
-- `lsh.cpp/.h` — Lógica de hashing y proyección.
-- `utils.cpp/.h` — Funciones auxiliares (impresión, distancia coseno).
+---
+
+## 🗂️ Project Structure
+
+- `main.cpp` — Main orchestrator.  
+- `lsh.cpp/.h` — Hashing and projection logic.  
+- `utils.cpp/.h` — Helper functions (printing, cosine similarity).  
